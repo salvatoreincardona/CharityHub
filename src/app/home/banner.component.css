@@ -24,18 +24,34 @@
     background-size: 100vw 100vh;
     height: 100vh;
     min-width: 100vw;
-    margin-top: -80px;
-    font-size: 12px;
+    margin-top: -90px;
  }
 
  .paddingblocco {
      padding-top: 12%;
  }
 .logo {
-    max-height: 40vh;
-    max-width: 20vw;
+    max-height: 50vh;
+    max-width: 30vw;
    
 }
+
+.motto {
+    line-height: 0;
+}
+
+.motto h2 {
+    font-size: 7.5vw;
+    font-weight: 700;
+}
+
+.motto h3 {
+    font-size: 2.3vw;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
 
 @media only screen and (max-width:837px) {
     .paddingblocco {
@@ -47,6 +63,43 @@
 @media only screen and (max-width:492px) {
 
     .bg {
-        margin-top: -130px;
+        margin-top: -150px;
+    }
+
+    .paddingblocco {
+        padding-top: 200px;
     }
 }
+
+@media only screen and (min-width: 493px) and (max-width:554px) {
+    
+    .bg {
+        margin-top: -180px;
+    }
+
+    .paddingblocco {
+        padding-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 555px) and (max-width:944px) {
+    
+    .bg {
+        margin-top: -140px;
+    }
+
+    .paddingblocco {
+        padding-top: 180px;
+    }
+}
+
+@media only screen and (min-width: 944) {
+  
+
+    .paddingblocco {
+        padding-top: initial;
+    }
+}
+
+
+
