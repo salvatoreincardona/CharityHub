@@ -1,0 +1,125 @@
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* css*/
+
+.ultimeStorie {
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'box1 box2'
+    'box3 box4';
+  gap: 2vw;
+  justify-content: center;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  height: 35vh;
+  width: 35vw;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.link-leggi {
+  background-color: #ffd500;
+  font-size: 20px;
+  padding: 1vh 2vh;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.link-leggi:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.box-image {
+  height: 10vmax;
+}
+
+
+@media (max-width: 992px) {
+  .grid-container {
+
+    grid-template-areas:
+      'box1'
+      'box2'
+      'box3'
+      'box4'
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 80vw;
+    height: 18vh;
+  }
+}
+
+.box-image {
+
+  border-radius: 50%;
+}
+
+.box-text {
+  font-size: 1vw;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.box-text {
+  font-size: 2.3vw;
+}
