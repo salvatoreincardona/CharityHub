@@ -1,4 +1,4 @@
-#banner {
+/* #banner {
     background-image: url(../../assets/cover-home.png);
     background-repeat: no-repeat;
     background-position-y:center;
@@ -6,8 +6,7 @@
     height: 100vh;
     min-width: 100vw;
     margin-top: -80px;
-    font-size: 18px;
-    font-weight: bolder;
+    font-size: 12px;
 }
 
 #bloccobanner {
@@ -16,9 +15,38 @@
     text-align: center;
 
 }
+ */
 
+ .bg {
+    background-image: url(../../assets/cover-home.png);
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    min-width: 100vw;
+    margin-top: -80px;
+    font-size: 12px;
+ }
+
+ .paddingblocco {
+     padding-top: 12%;
+ }
 .logo {
     max-height: 40vh;
     max-width: 20vw;
-    margin-left: 5x;
+   
+}
+
+@media only screen and (max-width:837px) {
+    .paddingblocco {
+        padding-top: 150px;
+    }
+
+}
+
+@media only screen and (max-width:492px) {
+
+    .bg {
+        margin-top: -130px;
+    }
 }
