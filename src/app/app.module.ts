@@ -9,10 +9,10 @@ import { TitoloComponent } from './header/titolo.component';
 import { HomeComponent } from './home/home.component';
 import { InfoComponent } from './info/info.component';
 import { FooterComponent } from './footer/footer.component';
-import { BannerComponent } from './home/banner.component';
-import { AssociazioniComponent } from './home/associazioni.component';
-import { IniziativeComponent } from './home/iniziative.component';
-import { StorieComponent } from './home/storie.component';
+import { BannerComponent } from './home/componentihome/banner.component';
+import { IniziativeComponent } from './home/componentihome/iniziative.component';
+import { StorieComponent } from './home/componentihome/storie.component';
+import { AssociazioniComponent } from './home/componentihome/associazioni.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +24,9 @@ import { StorieComponent } from './home/storie.component';
     InfoComponent,
     FooterComponent,
     BannerComponent,
-    AssociazioniComponent,
     IniziativeComponent,
     StorieComponent,
+    AssociazioniComponent,
 
   ],
   imports: [
