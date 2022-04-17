@@ -1,9 +1,26 @@
 li a {
-    color: white!important;
-    font-weight:600;
+  color: white !important;
+  font-weight: 600;
 }
 
-.nav-item{
-    text-align: right;
+.nav-item {
+  text-align: right;
 }
 
+@media only screen and (max-width: 576px) {
+
+  ul {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    animation: comparsa 0.3s ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes comparsa {
+
+    from {top:80%}
+    to {top:100%}
+      
+  }
+}
