@@ -13,6 +13,7 @@ import { BannerComponent } from './home/componentihome/banner.component';
 import { IniziativeComponent } from './home/componentihome/iniziative.component';
 import { StorieComponent } from './home/componentihome/storie.component';
 import { AssociazioniComponent } from './home/componentihome/associazioni.component';
+import { FrecciagiuComponent } from './home/frecciagiu.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AssociazioniComponent } from './home/componentihome/associazioni.compon
     IniziativeComponent,
     StorieComponent,
     AssociazioniComponent,
+    FrecciagiuComponent,
 
   ],
   imports: [
