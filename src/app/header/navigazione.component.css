@@ -23,18 +23,23 @@ li a:hover {
     position: absolute;
     right: 30%;
     top: 100%;
-    animation: comparsa 0.3s ease-out;
-    animation-fill-mode: forwards;
+    /* animation: comparsa 0.3s ease-out;
+    animation-fill-mode: forwards; */
   }
 
   ul li {
     text-align: center;
   }
 
+  .comparsa {
+    animation: comparsa 0.3s ease-out;
+    animation-fill-mode: forwards;
+  }
+
   @keyframes comparsa {
 
     from {
-      top: 80%
+      top: 60%
     }
 
     to {
@@ -57,7 +62,7 @@ li a:hover {
     }
 
     to {
-      top: 80%
+      top: 60%
     }
 
   }

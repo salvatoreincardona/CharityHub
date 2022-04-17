@@ -1,5 +1,5 @@
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-navigazione',
@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigazione.component.css']
 })
 export class NavigazioneComponent implements OnInit {
-  aperto: boolean | undefined;
+  
+  open: boolean = false;
+  
   constructor() { }
 
   ngOnInit(): void {
+  
+  }
 
+  toggle() {
+    this.open = !this.open;
   }
 
 }
