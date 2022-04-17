@@ -3,6 +3,18 @@ li a {
   font-weight: 600;
 }
 
+li:hover {
+    background-color: rgba(0, 17, 250, 0.374);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    
+}
+
+li a:hover {
+  color: yellow!important;
+}
+
+
 .nav-item {
   text-align: right;
 }
@@ -16,6 +28,11 @@ li a {
     animation: comparsa 0.3s ease-out;
     animation-fill-mode: forwards;
   }
+
+  li a {
+      text-align: center;
+  }
+
 
   @keyframes comparsa {
 
