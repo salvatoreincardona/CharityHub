@@ -1,17 +1,11 @@
 li a {
   color: white !important;
   font-weight: 600;
-}
 
-li:hover {
-    background-color: rgba(0, 17, 250, 0.374);
-    border: 2px solid yellow;
-    border-radius: 10px;
-    
 }
 
 li a:hover {
-  color: yellow!important;
+  color: yellow !important;
 }
 
 
@@ -21,23 +15,56 @@ li a:hover {
 
 @media only screen and (max-width: 576px) {
 
+  #menu {
+    width: 150px;
+  }
+
   ul {
     position: absolute;
-    right: 0;
+    right: 30%;
     top: 100%;
     animation: comparsa 0.3s ease-out;
     animation-fill-mode: forwards;
   }
 
-  li a {
-      text-align: center;
+  ul li {
+    text-align: center;
   }
-
 
   @keyframes comparsa {
 
-    from {top:80%}
-    to {top:100%}
-      
+    from {
+      top: 80%
+    }
+
+    to {
+      top: 100%
+    }
+
   }
+
+  .comparsa {
+
+    
+  }
+
+  .scomparsa {
+    
+    animation: scomparsa 0.3s ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes scomparsa {
+
+    from {
+      top: 100%
+    }
+
+    to {
+      top: 80%
+    }
+
+  }
+
 }
+

@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigazione.component.css']
 })
 export class NavigazioneComponent implements OnInit {
-
+  aperto: boolean | undefined;
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
