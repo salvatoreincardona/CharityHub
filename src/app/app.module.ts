@@ -13,6 +13,7 @@ import { BannerComponent } from './home/banner.component';
 import { AssociazioniComponent } from './home/associazioni.component';
 import { IniziativeComponent } from './home/iniziative.component';
 import { StorieComponent } from './home/storie.component';
+import { CaroselloComponent } from './home/carosello.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { StorieComponent } from './home/storie.component';
     AssociazioniComponent,
     IniziativeComponent,
     StorieComponent,
+    CaroselloComponent,
 
   ],
   imports: [
