@@ -11,5 +11,6 @@ export class StorieComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
 
 }
