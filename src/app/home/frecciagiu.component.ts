@@ -3,12 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-frecciagiu',
   template: `
-    <div class="vaigiu d-flex flex-column">
+    <div class="vaigiu d-flex flex-column text-center">
       <small>Scorri giù</small>
     <img src="../../assets/arrrowdown.png" height="20vh" width="50vw" class="mx-auto pt-2">
     </div>
   `,
-  styles: ['.vaigiu {position: fixed; bottom: 5vh; left: 45vw;}']
+  styles: ['.vaigiu {position: fixed; width: 100vw; bottom: 5vh;}']
 })
 export class FrecciagiuComponent implements OnInit {
 
