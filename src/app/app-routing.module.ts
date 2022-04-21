@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'info', component: InfoComponent },
   { path: 'iniziative', component: ListainiziativeComponent },
+  { path: 'associazioni', component: ListainiziativeComponent },
   { path: '**', component: HomeComponent }
 ];
 
