@@ -1,0 +1,29 @@
+
+.associazioni {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../assets/compagnia.png);
+    /* cambiare l'immagine*/
+    background-position: center;
+    background-size: cover;
+
+}
+
+.titolo {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 0vw;
+}
+
+.titolo-associazioni {
+    font-size: 3vw;
+    color: #0472b3;
+}
+
+.scopri {
+    text-decoration: none;
+    color: black;
+    background-color: #ffd500;
+    padding: 10px 20px;
+    border-radius: 20px;
+}

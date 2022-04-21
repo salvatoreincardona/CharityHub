@@ -14,6 +14,8 @@ import { IniziativeComponent } from './home/componentihome/iniziative.component'
 import { StorieComponent } from './home/componentihome/storie.component';
 import { AssociazioniComponent } from './home/componentihome/associazioni.component';
 import { FrecciagiuComponent } from './home/frecciagiu.component';
+import { ListainiziativeComponent } from './listainiziative/listainiziative.component';
+import { ListaassociazioniComponent } from './listaassociazioni/listaassociazioni.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { FrecciagiuComponent } from './home/frecciagiu.component';
     StorieComponent,
     AssociazioniComponent,
     FrecciagiuComponent,
+    ListainiziativeComponent,
+    ListaassociazioniComponent,
 
   ],
   imports: [
