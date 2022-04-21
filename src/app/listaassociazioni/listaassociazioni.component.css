@@ -2,7 +2,7 @@
 .associazioni {
     height: 80vh;
     width: 100%;
-    background-image: url("https://www.cinecittalucemagazine.it/wp-content/uploads/2022/03/compagnia.png");
+    background-image: url(../../assets/compagnia.png);
     /* cambiare l'immagine*/
     background-position: center;
     background-size: cover;
