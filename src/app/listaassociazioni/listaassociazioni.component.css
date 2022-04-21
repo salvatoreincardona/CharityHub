@@ -1,11 +1,12 @@
 
 .associazioni {
-    height: 80vh;
-    width: 100%;
-    background-image: url(../../assets/compagnia.png);
+    height: 100vh;
+    width: 100wv;
+    background-image: url(../../assets/cover-associazioni.png);
     /* cambiare l'immagine*/
     background-position: center;
     background-size: cover;
+    margin-top: -90px;
 
 }
 
